@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Touch Me</title>
+</head>
+<body>
+    <audio id = "bgm" src="src/bgm.mp3" autoplay loop></audio>
+    <audio id="sound" src="src/Dont Touch Me.mp3"></audio>
+    <img src="src/Don_tTouchMeSpritePortrait.png" onmouseover="playsound()">
+</body>
+    <script>
+        function playsound(){
+            var audio = document.getElementById("sound");
+            audio.play();
+            alert("누르지 마아아아아아아아아아아아아아아")
+        }
+    </script>
+</html>
